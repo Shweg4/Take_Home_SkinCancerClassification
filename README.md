@@ -1,12 +1,10 @@
-# Image Classification Project using PyTorch
+# Skin Cancer- Benign and Malignant Classification 
 
 This project implements an image classification pipeline using PyTorch to train a deep learning model on a custom dataset. The models supported are:
 
 - ResNet-18 (built from scratch using PyTorch layers)
 - VGG-16 (pre-trained from torchvision with a custom classifier head)
-
-The project supports training, validation, testing, data augmentation, and visualization of predictions and learning curves.
-
+- Simple CNN (Convolution layers with fc layers as final layers)
 ---
 
 ## Dataset Structure
@@ -108,13 +106,15 @@ The training script also generates:
 ## How to Run
 
 1. Place your dataset into `/content/train` and `/content/test` folders.
-2. Run the training script.
-3. After training, results will be displayed, including:
+2. Run the Jupyter notebook - The repository contains three files for three models(CNN, ResNet & VGG16).
+3. Each notebook contains the entire pipeline from importing the dataset, to pre-processing, training, evaluation & model inference.
+4. Ensure the dataset is imported correctly and run all the remaining blocks. 
+5. After training, run the next blocks for results to be displayed, including:
     - Final test accuracy.
     - Accuracy/loss plots.
     - Sample predictions.
+##Results
 
----
 
 ## Example Folder Structure
 
