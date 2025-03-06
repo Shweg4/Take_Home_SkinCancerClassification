@@ -139,6 +139,29 @@ The table below summarizes the results of different architectures
   </tr>
 </table>
 
+The best performing model was VGG-16 with pretrained weights
+
+
+### Inference 
+
+<table>
+  <tr>
+    <th>Simple CNN </th>
+    <th>Resnet</th>
+    <th>VGG-16 pretrained</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Simple CNN - Sample Predictions(Inference).png" alt="Simple CNN loss and accurac" width="400">
+  </td>
+    <td>
+      <img src="ResNet- Sample Predictions(Inference).png" alt="Resnet loss and accuracy" width="400">
+    </td>
+    <td>
+      <img src="VGG Sample Predictions (Inference).png" alt="VGG-16 pretrained loss and accuracy" width="400">
+    </td>
+  </tr>
+</table>
 ## Example Folder Structure
 
 ```
