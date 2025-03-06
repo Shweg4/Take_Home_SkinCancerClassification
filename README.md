@@ -118,7 +118,11 @@ The training script also generates:
     - Final test accuracy.
     - Accuracy/loss plots.
     - Sample predictions.
-##Results
+
+---
+
+## Results
+
 
 The table below summarizes the results of different architectures
 
