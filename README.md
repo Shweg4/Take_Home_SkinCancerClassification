@@ -66,6 +66,9 @@ For validation and test data, the following transformations are applied (no augm
 
 ## Models
 
+### Simple CNN 
+- Implemented a simple CNN architecture to compare
+
 ### ResNet-18 (from scratch)
 
 - Implemented entirely using `torch.nn` (no torchvision models).
