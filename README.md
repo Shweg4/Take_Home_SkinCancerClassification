@@ -74,6 +74,11 @@ For validation and test data, the following transformations are applied (no augm
 - Each residual block has 2 convolutional layers and a skip connection.
 - Global Average Pooling before the final dense layer.
 
+### VGG 16 
+
+- VGG 16 loaded with pre-trained weights
+- The last layer is trained on the dataset for 50 epochs
+
 
 ---
 
