@@ -115,6 +115,29 @@ The training script also generates:
     - Sample predictions.
 ##Results
 
+The table below summarizes the results of different architectures
+
+<table>
+  <tr>
+    <th>Simple CNN loss and accuracy</th>
+    <th>Resnet loss and accuracy</th>
+    <th>VGG-16 pretrained loss and accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/Simple CNN - Training Plots.png" alt="Simple CNN loss and accurac" width="400">
+      <p><strong>Summary:</strong> This graph depicts the loss and accuracy of a simple CNN architecture. The accuracy reaches around 85% after 100 epochs. The test accuracy for this was 84%.</p>
+  </td>
+    <td>
+      <img src="Resnet - Training Plots.png" alt="Resnet loss and accuracy" width="400">
+      <p><strong>Summary:</strong> This graph depicts the loss and accuracy of the Resnet architecture. The validation accuracy is around 89% and the model starts to overfit aroung 40th epoch. The test accuracy is around 93.5%</p>
+    </td>
+    <td>
+      <img src="VGG - Training Plots.png" alt="VGG-16 pretrained loss and accuracy" width="400">
+      <p><strong>Summary:</strong> This graph shows the loss and accuracy of a VGG 16 model which is loaded with pre-trained weights. The validation accuracy is around 92% and the test accuracy is 93.55%.</p>
+    </td>
+  </tr>
+</table>
 
 ## Example Folder Structure
 
